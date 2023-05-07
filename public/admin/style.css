@@ -1,0 +1,43 @@
+#login{
+    position: relative;
+    top: 200px;
+    left: 380px;
+}
+
+#header{
+    background: linear-gradient(to right, rgb(105,185,243),rgb(9,107,179));
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#header a{
+    float: right;
+    color: white;
+}
+#header a:hover{
+    float: right;
+    color: red;
+}
+
+#header span{
+    text-transform: uppercase;
+    color: white;
+}
+#header img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+#mid p a{
+color: white;
+text-decoration: none;
+}
+
+#footer{
+    background: linear-gradient(to right, rgb(105,185,243),rgb(9,107,179));
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+img{
+    width: 100px;
+}

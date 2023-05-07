@@ -1,0 +1,180 @@
+#header{
+    background: linear-gradient(to right,rgb(78,66,220),rgb(94,85,198));
+    padding-bottom: 5px;
+    padding-top: 2px;
+    
+}
+#header .navbar-brand img{
+    width: 200px;
+    padding-top: 10px;
+    box-shadow: 10px 10px ;
+    
+    
+}
+#header .navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 12px;
+
+}
+
+#header .navbar-nav a:hover{
+    border: 1px solid white;
+
+}
+
+#banner{
+        background: linear-gradient(to right,rgb(78,66,220),rgb(94,85,198));
+        padding-top: 50px;
+       
+}
+#banner #banner-heading{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+}
+#banner p{
+    font-size: 12px;
+    color: white;
+}
+#profile img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+#banner #banner-img{
+    width: 250px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+.banner-border-img{
+    width: 100%;
+}
+
+
+#services #heading{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    color:green;
+    font-weight: bold;
+    transition-property: font-size;
+    transition-duration: 2s;
+}
+
+#services #heading:hover{
+    font-size: 40px;
+}
+
+#services .heading-sub{
+    font-size: 20px;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+}
+
+#services .card-body h5{
+    color:green;
+}
+
+#services .card-body p{
+    color:green;
+    font-size: 14px;
+}
+
+#services .card{
+    border: 0px;
+}
+
+#testi #heading{
+    font-family: 'Merriweather', serif;   
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 35px;
+    transition-property: font-size;
+    transition-duration: 2s;
+    padding-bottom: 15px;
+
+}
+#testi #heading:hover{
+    font-size: 40px;
+}
+#testi img{
+    border-radius: 50%;
+    border: 1px solid green;
+}
+#testi #desc{
+    padding-top: 15px;
+    font-size: 15px;
+    color: green;
+}
+#testi #company{
+    font-size: 15px;
+    color: green;
+    
+}
+#testi #company-name{
+    font-weight: bold;
+}
+#testi #desg{
+    font-size: 15px;
+    color: green;
+}
+
+#footer{
+    
+    background: linear-gradient(to right,rgb(78,66,220),rgb(94,85,198));
+    padding-bottom: 20px;
+}
+
+#footer #footer-border-img{
+    width: 100%;
+}
+#footer #footer-logo{
+    width: 100px;
+}
+#footer p{
+    font-size: 16px;
+    color: white;
+}
+#footer .form-label{
+    color:white;
+}
+#footer #footer-company-name{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+#footer #icon{
+    width:100px;
+    color: white;
+}
+#footer .fotter-contact-p{
+    font-size: 15px;
+}
+#footer #footer-heading-form{
+    padding-top: 10px;
+    font-size: 20px;
+    font-size: bold;
+}
+
+#footer img{
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+

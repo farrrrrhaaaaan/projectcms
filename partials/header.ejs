@@ -1,0 +1,45 @@
+
+<section id="header">
+  <%if(message){%>
+    <div class=" ms-2 text-start text-danger fs-2  fw-light"><%=message%></div>
+    <%}%>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="/media/logo.png" class="img-fluid" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <% if(username!=='hello'){%>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="testi">Testinominal Add here</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="/changepassword" >Change Password</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/profileupdate" >Profile Update</a></li>
+                  <li class="nav-item"><a class="nav-link" href="/logout" >logout</a></li>
+                  <li class="nav-item"><a></a></li>
+
+                  <li class="nav-item"><a class="nav-link" href="#" ><span class="text-danger">Welcome <%=username%></span></a></li>
+
+
+                  <%}%>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </section>
